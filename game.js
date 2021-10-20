@@ -1,7 +1,7 @@
 let turn = 1; //initial player is 1
 let isgameover = false;
 let resetButton = document.querySelector(".reset"); //refresh the game from start
-const winsConditions = [ //Array of all the possibile conditions of winds
+const winsConditions = [ //Array of all the possibile conditions of winds. 0,1,3,4...till 8 denotes indexes of 9 boxes 
     [0,1,2],
     [3,4,5],
     [6,7,8],
